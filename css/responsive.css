@@ -1,0 +1,52 @@
+/*================== mobile============= */
+@media (max-width: 576px) {
+  /* ================ all header =========== */
+  .all_header h2 {
+    font-size: 20px !important;
+  }
+  .sticky {
+    padding: 5px 0px !important;
+  }
+  .slider .prev_arrow {
+    top: 60% !important;
+    left: 12px !important;
+    font-size: 25px !important;
+    transform: scale(1) !important;
+  }
+  .slider .next_arrow {
+    right: 12px !important;
+    top: 60% !important;
+    font-size: 25px !important;
+    transform: scale(1) !important;
+  }
+  .slider_content h2 {
+    font-size: 20px !important;
+  }
+  /* =================cause part css start============= */
+  .cause_left_image {
+    margin: 10px 0px !important;
+  }
+  /* ================= service part css start =========== */
+  .service_content_image {
+    margin: 10px 0px !important;
+  }
+
+  /* about part start */
+  .prev_arrow_executive {
+    left: 32% !important;
+    top: 100% !important;
+  }
+  .next_arrow_executive {
+    right: 32% !important;
+    top: 100% !important;
+  }
+  .blog_info {
+    text-align: left !important;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .blog_meta li {
+    display: inline-block;
+    width: calc(95% / 2);
+  }
+}
